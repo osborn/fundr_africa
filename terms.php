@@ -40,13 +40,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand title" href="index.html">Fundr Africa</a>
+              <a class="navbar-brand title" href="/">Fundr Africa</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a class="text" href="discover.html">Discover</a></li>
-                <li><a class="text" href="learn.html">Learn</a></li>
-                <li><a class="text" href="create.html">Create</a></li>
+                <li><a class="text" href="/discover">Discover</a></li>
+                <li><a class="text" href="/learn">Learn</a></li>
+                <li><a class="text" href="/create">Create</a></li>
               </ul>
 
               <ul class="nav navbar-nav navbar-right">

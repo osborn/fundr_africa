@@ -50,10 +50,10 @@
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a class="text" href="discover.html">Discover</a></li>
+                <li><a class="text" href="/discover">Discover</a></li>
 
-                <li><a class="text" href="learn.html">Learn</a></li>
-                <li><a class="text" href="create.html">Create</a></li>
+                <li><a class="text" href="/learn">Learn</a></li>
+                <li><a class="text" href="/create">Create</a></li>
               </ul>
 
               <ul class="nav navbar-nav navbar-right">

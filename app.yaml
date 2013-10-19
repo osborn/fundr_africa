@@ -7,5 +7,20 @@ handlers:
 - url: /
   script: index.php
 
+- url: /create
+  script: create.php
+
+- url: /discover
+  script: discover.php
+
+- url: /learn
+  script: learn.php
+
+- url: /privacy
+  script: privacy.php
+
+- url: /terms
+  script: terms.php
+
 - url: /stylesheets
   static_dir: stylesheets
