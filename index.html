@@ -25,6 +25,12 @@
 
      <link href="css/buttons.css" rel="stylesheet">
 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -45,7 +51,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a class="text" href="discover.html">Discover</a></li>
-                <li><a class="text" href="#about">Learn</a></li>
+                <li><a div="scrollme" class="text" href="#about">Learn</a></li>
                 <li><a class="text" href="#contact">Create</a></li>
               </ul>
 
@@ -138,7 +144,7 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing mycontainer">
+    <div class="container marketing mycontainer" div="scrollhere">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
@@ -172,13 +178,19 @@
       </footer>
 
     </div><!-- /.container -->
+    
 
-
+    <script>
+      $(document).ready(function(){
+        $('#scrollme').click(function(){
+          alert('hey');
+        });
+      });
+    </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/holder.js"></script>
+    
+    
   </body>
 </html>
