@@ -99,22 +99,22 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
           <div class="thumbnail">
-           <img data-src="holder.js/300x200" alt="...">
+           <img src="stylesheets/images/projects/pr1.png" alt="Borehole Project">
             <div class="caption">
-            <h3>Thumbnail label</h3>
-              <p>Details will go here.</p>
+            <h3>Madina Borehole Project</h3>
+              <p>Drilling 15m to access water for the community.</p>
               <hr>
               <div class="row">
-                <div class="col-lg-6"><p>GHC500</p></div>
-                <div class="col-lg-6"><p>50%</p></div>
+                <div class="col-lg-6"><p>GHC12,500</p></div>
+                <div class="col-lg-6"><p>0%</p></div>
               </div>
               <div class="row">
-                <div class="col-lg-6"><p>12 days left</p></div>
-                <div class="col-lg-6"><p>5 donators</p></div>
+                <div class="col-lg-6"><p>160 days left</p></div>
+                <div class="col-lg-6"><p>0 donators</p></div>
               </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                  <span class="sr-only">40% Complete (success)</span>
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                  <span class="sr-only">0% Complete (success)</span>
                 </div>
               </div>
               <p><a href="#myModal" data-toggle="modal" class="btn btn-primary">Donate</a></p>
@@ -189,22 +189,22 @@
         
         <div class="col-lg-3">
           <div class="thumbnail">
-            <img data-src="holder.js/300x200" alt="...">
+            <img src="stylesheets/images/projects/pr2.png" alt="Library Project">
             <div class="caption">
-              <h3>Thumbnail label</h3>
-              <p>Details will go here.</p>
+              <h3>Manhean Library Project</h3>
+              <p>Supporting education through library facilities in rural accra.</p>
               <hr>
               <div class="row">
-                <div class="col-lg-6"><p>GHC500</p></div>
-                <div class="col-lg-6"><p>50%</p></div>
+                <div class="col-lg-6"><p>GHC2,500</p></div>
+                <div class="col-lg-6"><p>0%</p></div>
               </div>
               <div class="row">
-                <div class="col-lg-6"><p>12 days left</p></div>
-                <div class="col-lg-6"><p>5 donators</p></div>
+                <div class="col-lg-6"><p>90 days left</p></div>
+                <div class="col-lg-6"><p>0 donators</p></div>
               </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                  <span class="sr-only">40% Complete (success)</span>
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                  <span class="sr-only">0% Complete (success)</span>
                 </div>
               </div>
               <p><a href="#" class="btn btn-primary">Donate</a> </p>
@@ -214,22 +214,22 @@
         
         <div class="col-lg-3">
           <div class="thumbnail">
-            <img data-src="holder.js/300x200" alt="...">
+            <img src="stylesheets/images/projects/pr3.png" alt="Batik Project">
             <div class="caption">
-              <h3>Thumbnail label</h3>
-              <p>Details will go here.</p>
+              <h3>The Batik Heritage Project</h3>
+              <p>Promoting the african heritage through batik designs.</p>
               <hr>
               <div class="row">
-                <div class="col-lg-6"><p>GHC500</p></div>
-                <div class="col-lg-6"><p>50%</p></div>
+                <div class="col-lg-6"><p>GHC750</p></div>
+                <div class="col-lg-6"><p>0%</p></div>
               </div>
               <div class="row">
-                <div class="col-lg-6"><p>12 days left</p></div>
-                <div class="col-lg-6"><p>5 donators</p></div>
+                <div class="col-lg-6"><p>40 days left</p></div>
+                <div class="col-lg-6"><p>0 donators</p></div>
               </div>
               <div class="progress">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                  <span class="sr-only">40% Complete (success)</span>
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                  <span class="sr-only">0% Complete (success)</span>
                 </div>
               </div>
               <p><a href="#" class="btn btn-primary">Donate</a></p>

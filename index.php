@@ -58,7 +58,7 @@
 
               <ul class="nav navbar-nav navbar-right">
                 <li><a id="signin"href="#">Sign Up</a></li>
-                <li><a href="#about">Log In</a></li>
+                <li><a href="#">Log In</a></li>
                 <li>
                   <form class="navbar-form navbar-right hidden-md" role="search">
                     <div class="form-group">
@@ -103,7 +103,7 @@
             <div class="carousel-caption">
               <h1>Difference we can make.</h1>
               <p>Fundr Africa is leading the way in crowd-sourcing for funds to make a difference right here in Africa. You can join us on this brigade.</p>
-              <p><a class="btn btn-large btn-primary" href="#">Sign up today</a></p>
+              <p><a class="btn btn-large btn-primary" href="/discover">Support a Project</a></p>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             <div class="carousel-caption">
               <h1>Built for Change.</h1>
               <p>Here at Fundr Africa we are focused on projects that have meaning to society and can touch lives across Africa. With your donation, we get closer to our purpose.</p>
-              <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+              <p><a class="btn btn-large btn-primary" href="/learn">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -133,9 +133,9 @@
     </div><!-- /.carousel -->
     </div>
         <div class="col-lg-3">
-          <div><a class="button" href="discover.html">Browse Campaigns</a></div>
-          <div><a class="button button2" href="#">Learn How it Works</a></div>
-          <div><a class="button button3" href="create.html">Create a Campaign</a></div>
+          <div><a class="button" href="/discover">Browse Campaigns</a></div>
+          <div><a class="button button2" href="/learn">Learn How it Works</a></div>
+          <div><a class="button button3" href="/create">Create a Campaign</a></div>
         </div>
       </div>
     </div>
