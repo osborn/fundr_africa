@@ -51,7 +51,7 @@
 
               <ul class="nav navbar-nav navbar-right">
                 <li><a id="signin"href="#">Sign Up</a></li>
-                <li><a href="#about">Log In</a></li>
+                <li><a href="#">Log In</a></li>
                 <li>
                   <form class="navbar-form navbar-right hidden-md" role="search">
                     <div class="form-group">
@@ -78,9 +78,8 @@
 
     <!-- Carousel
     ================================================== -->
-    <div class="container mycontainer">
-      <div class="jumbotron">
-        <h2>Which Category best describes your campaign?</h2>
+    <div class="container mycontainer"> 
+        <h4>Which Category best describes your campaign?</h4>
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-primary">
             <input type="radio" name="options" id="option1"> Community
@@ -97,42 +96,36 @@
           <label class="btn btn-primary">
             <input type="radio" name="options" id="option3"> Religion
           </label>
-        </div>
-        
-      </div>
+        </div>  
+        <br>
       
-      <div class="jumbotron">
-        <h2>What is your fundraising goal?</h2>
-        <input type="text" class="form-control amount" placeholder="GHC" autofocus>
+        <h4>What is your fundraising goal?</h4> 
+        <input class="form-control amount" name="amount" type="number" min="1" title='Target Amount (Amount: Any amount above GHC 1+)' placeholder="GHC" required><br>
       
-      </div>
-
-      <div class="jumbotron">
-        <h2>Which person or organisation will receive the funds from your campaign?</h2>
+      
+        <h4>Which person or organisation will receive the funds from your campaign?</h4>
         <div class="clearfix">
             <div class="input">
               
                   <label>
-                    <input type="radio" checked name="optionsRadios" value="option1" />
-                    <span>An individual person or group or people.</span>
+                    <input type="radio" checked name="optionsRadios" value="persons" />
+                    <span>An individual person or group of people.</span>
                   </label>
                 
                   <label>
-                    <input type="radio" name="optionsRadios" value="option2" />
-                    <span>A nonprofit institution registered in Ghana.</span>
+                    <input type="radio" name="optionsRadios" value="ngo" />
+                    <span>A non-profit institution registered in Ghana.</span>
                   </label>
                   <br>
                   <label>
-                    <input type="radio" name="optionsRadios" value="option3" />
+                    <input type="radio" name="optionsRadios" value="reli_org" />
                     <span>A religious organization.</span>
                   </label>
                 
             </div>
-          </div><!-- /clearfix -->
-      </div>
+          </div><br><!-- /clearfix -->  
 
-      <div class="jumbotron">
-        <h2>Which city do you reside in?</h2>
+        <h4>Which city do you reside in?</h4>
         <div class="clearfix">
           
             <div class="input">
@@ -144,11 +137,9 @@
                 <option>Cape Coast</option>
               </select>
             </div>
-      </div>
-    </div>
-
-    <div class="jumbotron">
-        <h2>How many days do you want to raise this money?</h2>
+        </div><br>
+ 
+        <h4>How many days do you want to raise this money?</h4>
         <div class="clearfix">
           
             <div class="input">
@@ -158,22 +149,20 @@
                 <option>45</option>
               </select>
             </div>
-      </div>
-    </div>
+        </div><br>
 
-
-      <div class="jumbotron">
-        <h2>Tell us a little bit about your campaign.</h2>
+ 
+        <h4>Tell us a little bit about your campaign.</h4>
         <div class="clearfix">
             <div class="input">
               <textarea class="xxlarge" id="textarea2" name="textarea2" rows="3"></textarea>
             </div>
       </div>
-      <br>
+      <br><br>
       <p><a class="btn btn-lg btn-primary" href="#">Help me raise money</a></p>
-    </div>
 
-    </div>
+      </div>
+ 
 
 
     <!-- Marketing messaging and featurettes
