@@ -117,10 +117,75 @@
                   <span class="sr-only">40% Complete (success)</span>
                 </div>
               </div>
-              <p><a href="#" class="btn btn-primary">Donate</a></p>
+              <p><a href="#myModal" data-toggle="modal" class="btn btn-primary">Donate</a></p>
             </div>
           </div>
         </div><!-- /.col-lg-4 -->
+
+        <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Pay With MPower</h4>
+        </div>
+        <div class="modal-body">
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    Redirect Payment to mPower
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <div class="container">
+                    <form method="post" action="mpower/redirect_checkout.php">
+                      <input type="text" name="amount" placeholder="Type an amount.">
+                      <button type="submit" class="btn btn-primary">Donate</button>
+                    </form>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Pay without going to MPower
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="panel-body">
+                  <div class="container">
+                    <form method="post" action="mpower/redirect_checkout.php">
+                      <input type="text" name="amount" placeholder="Type an amount.">
+                      <input type="text" name="amount" placeholder="Mpower username or number.">
+                      <button type="submit" class="btn btn-primary">Donate</button>
+                    </form>
+                  </div>
+                  
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
         
         <div class="col-lg-3">
           <div class="thumbnail">
