@@ -159,7 +159,26 @@
             </div>
       </div>
       <br><br>
-      <p><a class="btn btn-lg btn-primary" href="#">Help me raise money</a></p>
+      <p><a data-toggle="modal" class="btn btn-lg btn-primary" href="#submit">Submit Project</a></p>
+
+      <!-- Modal -->
+      <div class="modal fade" id="submit">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Project Submitted</h4>
+          </div>
+          <div class="modal-body">
+            <h4>Thanks for submitting your project, this project will be up for donations shortly.</h4>
+          </div>
+          <div class="modal-footer">
+            <a href="/" type="button" class="btn btn-default">Close</a> 
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
 
       </div>
  
