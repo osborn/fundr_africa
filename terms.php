@@ -113,7 +113,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy;  2013 Fundr Africa. &middot; <a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+        <p>&copy;  2013 Fundr Africa. &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
