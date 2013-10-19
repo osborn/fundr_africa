@@ -1,0 +1,47 @@
+.mynavbar-wrapper {
+	margin-top: 0px;
+}
+
+.navbar-wrapper .mynavbar {
+	border-radius: 0px;
+	border-bottom: 5px solid #777777;
+	height: 67px;
+}
+
+.navbar-inverse .title {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	letter-spacing: 0.04em;
+}
+
+.text {
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.04em;
+}
+
+.mycontainer {
+	margin-top: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#signin {
+	color: #ff0051;
+}
+
+.tagline {
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	line-height: 80px;
+}
+
+.sub-header {
+	background: url(http://www.indiegogo.com/assets/bg_sub_header-228433c65bb61fa2887e3da4fc517e6c.jpg);
+	margin-top: -20px;
+}
+
+.input-xxlarge,input.xxlarge,textarea.xxlarge,select.xxlarge{width:530px;}
+textarea.xxlarge{overflow-y:auto;}
